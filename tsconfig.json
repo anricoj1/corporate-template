@@ -1,3 +1,9 @@
 {
-  "extends": "tsconfig/base.json"
+  "extends": "@acme/tsconfig/react-library.json",
+  "include": [
+    "apps/**/*.ts",
+    "apps/**/*.tsx",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+  ]
 }

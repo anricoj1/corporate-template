@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["custom/storybook"],
+  extends: ["@acme/eslint-config/storybook"],
 };
